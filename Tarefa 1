@@ -6,4 +6,14 @@ capaz de executar com excelência tarefas pré-determinadas
 Tarefas sistemicas pré definidas para o microcontrolador, ou seja, a tarefa realizada pelo controlador eletrônico possibilita o pleno
 funcionamento do sistema eletrônico, por exemplo, televisores, geladeiras
 
--Apresente aplica
+-Apresente aplicações de sistemas embarcados
+  --Para a indústria automotiva
+  O sistema de injeção eletrônica, as várias unidades controladoras(air bag, abs)
+  --Para eletrdomésticos
+  Na máquina de lavar roupas que lava e seca, na geladeira que varia a temperatura ao gosto do cliente
+  --Para automoção industrial
+  Nos CLP's que controlam os sensores da linha de produção, no atuadores de desvio de linha
+  
+-Cite arquiteturas possíveis e as diferenças entre elas
+  
+-Por quê usamos o MSP430 na disciplina, ao invés de outro micorcontrolador?
