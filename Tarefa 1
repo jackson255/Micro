@@ -1,1 +1,9 @@
--O que são sistemas embracados?
+-O que são sistemas embarcados?
+São sistemas microcontrolados com poder de processamento limitado em relação aos computadores, porém
+capaz de executar com excelência tarefas pré-determinadas
+
+-O que são sistemas microprocessados?
+Tarefas sistemicas pré definidas para o microcontrolador, ou seja, a tarefa realizada pelo controlador eletrônico possibilita o pleno
+funcionamento do sistema eletrônico, por exemplo, televisores, geladeiras
+
+-Apresente aplica
