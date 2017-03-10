@@ -15,5 +15,12 @@ funcionamento do sistema eletrônico, por exemplo, televisores, geladeiras
   Nos CLP's que controlam os sensores da linha de produção, no atuadores de desvio de linha
   
 -Cite arquiteturas possíveis e as diferenças entre elas
+Temos a arquitetura Harvard e a arquitetura de Von Neumann, a primeira mais comumente denominada por RISC ( Reduced Instruction 
+Set Computer) e a segunda por CISC (Complex Instruction Set Computer).
+Na arquitetura RISC, o objetivo é a busca de simplicidade na instruções e por consequência um poder de processamento e controle mais 
+simples, o que na arquitetura CISC não ocorre, esta tem por finalidade uma unidade de processamento mais complexa, pois possui a capacidade 
+de trabalhar com uma sequência de instruções ao mesmo tempo.
   
--Por quê usamos o MSP430 na disciplina, ao invés de outro micorcontrolador?
+-Por quê usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+A MSP430 tem uma arquitetura baseada no RISC o que proporciona projetos mais em conta, baixo consumo e ideal para aplicações de pequeno 
+porte, como exemplo, automação robótica e plataformas didáticas.
