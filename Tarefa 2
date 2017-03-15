@@ -1,12 +1,13 @@
 Data: 15/03/2017
 
 Q1. Quais as diferenças entre os barramentos de dados e de endereços?
-O primeiro tem por finalidade a troca de dados(informações) da CPU com a memória RAM/ROM, realizando um caminho fixo para essa troca, no
-segundo, o barramento de endereços tem por objetivo 
-Barramento de dados – como o próprio nome já deixa a entender, é por este tipo de barramento que ocorre as trocas de dados no computador, tanto enviados quanto recebidos.
-Barramento de endereços – indica o local onde os processos devem ser extraídos e para onde devem ser enviados após o processamento.
+O primeiro tem por finalidade a troca de dados(informações) da CPU com unidade de execução do comando realizado, realizando um caminho
+fixo para essa troca, no segundo, o barramento de endereços tem por objetivo a indicação do endereços de armazenamento dos dados a ele
+imputados para futura solicitação da CPU.
 
 Q2. Quais são as diferenças entre as memórias RAM e ROM?
+Memória RAM é volátil, sua capacidade de armazenar dados é temporária, o que no caso da memória ROM difere, esta tem sua construção 
+no objetivo de armazenar dados permanentes e modificaveis mesmo após seu desligamento
 
 Q3. Considere o código abaixo, de 12 linhas:
 
