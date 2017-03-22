@@ -6,7 +6,7 @@ fixo para essa troca, no segundo, o barramento de endereços tem por objetivo a 
 imputados para futura solicitação da CPU.
 
 Q2. Quais são as diferenças entre as memórias RAM e ROM?
-Memória RAM é volátil, sua capacidade de armazenar dados é temporária, o que no caso da memória ROM difere, esta tem sua construção 
+Memória RAM é volátil, sua capacidade de armazenar de dados é temporária, o que no caso da memória ROM difere, esta tem sua construção 
 no objetivo de armazenar dados permanentes e modificaveis mesmo após seu desligamento
 
 Q3. Considere o código abaixo, de 12 linhas:
@@ -26,13 +26,24 @@ Q3. Considere o código abaixo, de 12 linhas:
 
 Para este código, responda:
 	(a) A variável 'i' é armazenada na memória RAM ou ROM? Por quê?
+	Na memória RAM, pois esta ainda é uma alocação do projeto programacional
 	(b) O programa compilado a partir deste código é armazenado na memória RAM ou ROM? Por quê?
-
+	Na memória ROM, pois quando compilado o programa, este se encontra na ROM como base do programa
 Q4. Quais são as diferenças, vantagens e desvantagens das arquiteturas Harvard e Von Neumann?
-
+Basicamente a de Von Neuman tem seu processamento e amrmazenamento no memsmo conjunto, enquanto a  de Havard se distingue por ter seu
+processamento e armazenamento separados, possibilitando a execuaçaõ de tarefas distintas entre dados e memórias.
 Q5. Considere a variável inteira 'i', armazenando o valor 0x8051ABCD. Se 'i' é armazenada na memória a partir do endereço 0x0200, 
 como ficam este byte e os seguintes, considerando que a memória é:
-	(a) Little-endian?
-	(b) Big-endian?
+(a) Little-endian?
+	0xCD em 0x0200
+	0xAB em 0x0201
+	0x51 em 0x0202
+	0x80 em 0x0203
+(b) Big-endian?
+	0x80 em 0x0200
+	0x51 em 0x0201
+	0xAB em 0x0202
+	0xCD em 0x0203
 
 Q6. Sabendo que o processador do MSP430 tem registradores de 16 bits, como ele soma duas variáveis de 32 bits?
+
