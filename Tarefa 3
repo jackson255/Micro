@@ -43,14 +43,17 @@ WDTCTL=WDTPW+WDTHOLD;
 P1DIR |= BIT0+BIT6;     //P1.0  e P1.6 como saída e os demais como entradas
 P1OUT &= ~(BIT0+BIT6);   //P1.0 e P1.6 como desligado
 P1REN |= BIT3;     //Habilita Pull-up no botão P1.3
-
+for(;;)
 if((P1IN & BIT3)==0)   // Se o botão está em zero
-	P1OUT=1;            // acende os dois leds, P1.0 e P1.6
+	P1OUT ^= 1;            // acende os dois leds, P1.0 e P1.6
+	for(tempo=0;tempo<10000;tempo++);
+  	P1OUT ^= 1;
+ 	for(tempo=0;tempo<10000;tempo++);
+	
 	
 else 
 	P1OUT &= ~(BIT0+BIT6);        // Apaga os dois leds
 }
-NÃO SEI COMO FAZ PISCAR DUAS VEZES!!!!!!!! :(
 
 4. Considerando a placa Launchpad do MSP430, faça uma função em C que pisca os dois LEDs uma vez.
 
